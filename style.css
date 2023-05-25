@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(95, 95, 246);
+    height: 55px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+    font-family: 'Crimson Text', serif;
+    font-size: xx-large;
+  }
+
+  .first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin: auto;
+    height: 60px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #8888;
+    font-family: 'Crimson Text', serif;
+    padding:50px 10px;
+  }
+  
+  .first input {
+    flex: 1;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 2px solid #8888;
+    margin-right: 10px;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #8888;
+    font-family: 'Crimson Text', serif;
+    padding:10px 10px;
+  }
+  
+  .top {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    padding:10px 10px;
+    font-weight: 500;
+    font-size: x-large;
+    /* margin-bottom: 5px; */
+  }
+  
+  .send {
+    padding-top: 3px;
+    height: 45px;
+    width: 50px;
+    align-items: center;
+    background-color: rgb(147, 147, 244);
+    border-radius: 5px;
+    border: 1px solid #8888;
+  }
+  
+  .send:hover {
+    cursor: pointer;
+  }
+  
+  .list {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #8888;
+    padding: 15px 15px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 25px;
+    width: 40px;
+    cursor: pointer;
+    padding-right: 15px;
+  }
+  
